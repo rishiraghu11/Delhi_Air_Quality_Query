@@ -1,45 +1,64 @@
-# Delhi_Air_Quality_Query
-📊 Advanced SQL Analysis of Delhi Air Quality &amp; Weather Trends
+# 🌆 Delhi Air Quality Query Project  
 
-Delhi Air Quality Data Analysis
+## 📖 Overview  
+This project analyzes **Delhi's Air Quality Index (AQI)** using **SQL queries** and **Power BI dashboards**.  
+The aim is to uncover patterns, detect pollution spikes, study weather impact, and derive insights for better environmental monitoring.  
 
-📌 Overview
+---
 
-This project analyzes Delhi’s air quality data to uncover patterns, identify the most polluted days, and study relationships between pollution levels and various weather factors such as temperature, humidity, and wind speed. It also demonstrates advanced SQL techniques like window functions, aggregations, joins, and date functions for real-world data analysis.
+## 🎯 Objectives  
+- Analyze daily, monthly, and yearly AQI trends.  
+- Detect hazardous days and streaks.  
+- Study the correlation between **weather conditions** and **air pollution**.  
+- Identify the **primary pollutants** contributing to poor air quality.  
+- Visualize key findings using dashboards for easy interpretation.  
 
-<img width="1536" height="1024" alt="DelhiAir " src="https://github.com/user-attachments/assets/9a3cfc4c-bfd1-41fa-9e92-466286643887" />
+---
+
+## 📊 Key Analyses Performed  
+
+1. **Average AQI (Overall)**  
+2. **Worst AQI Day**  
+3. **Count of Hazardous Days (AQI > 300)**  
+4. **Average Pollutant Levels**  
+5. **Holidays vs Non-Holidays AQI**  
+6. **Average AQI on Holidays**  
+7. **Weather Impact: AQI vs Temperature**  
+   - Compare daily AQI with average temperature.  
+8. **Weather Conditions During Worst AQI Day**  
+9. **Correlation Between Wind Speed & AQI**  
+10. **Monthly AQI % Change**  
+11. **7-Day Rolling Average AQI**  
+12. **Pollution Spike Detection (Mean + 2×StdDev)**  
+13. **Longest Consecutive Hazardous Streak (AQI > 300)**  
+14. **Primary Pollutant by Month**  
+15. **Dynamic AQI Categorization**  
+16. **Worst Month per Year**  
+17. **Same Day Pollution Comparison (Yearly)**  
+18. **AQI Threshold Percentile per Year**  
+
+---
+
+## 🛠️ Tools & Technologies  
+- **SQL** → Data cleaning, querying & transformations  
+- **PostgreSQL / MySQL** → Database  
+- **Power BI** → Dashboard visualizations  
+- **Excel/CSV** → Raw data storage  
+
+---
+
+## 📂 Project Structure  
+
+Delhi_Air_Quality_Query/
+
+│── 📁 DATA/ # Contains raw & cleaned datasets 
+
+│── 📁 SQL_SCRIPTS/ # SQL queries for all analyses
+
+│── 📁 DASHBOARDS/ # Power BI dashboard files (.pbix, exports)
+
+│── 📄 README.md # Project documentation
+
+│── 📄 RESULTS.pdf # Final project report
 
 
-📊 Dataset
-
-The dataset contains daily records of:
-
-Date (Year, Month, Day)
-
-Air Quality Index (AQI)
-
-Station & Location
-
-Weather Parameters – Temperature, Humidity, Wind Speed
-
-Holiday Indicators
-
-🔍 Key Insights & Queries
-
-Top Polluted Locations – Using GROUP BY and ORDER BY to find the most polluted areas.
-
-Worst Day Analysis – Combining AQI and weather data to find the highest pollution day.
-
-Trend Analysis – Yearly and monthly AQI patterns.
-
-Holiday Effect on Pollution – Checking correlation between holidays and AQI levels.
-
-Window Functions – Ranking locations by pollution and computing moving averages.
-
-🛠️ Tech Stack
-
-Database: PostgreSQL / MySQL
-
-Language: SQL
-
-File Formats: CSV, SQL, PDF
