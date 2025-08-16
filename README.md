@@ -1,5 +1,7 @@
 # 🌆 Delhi Air Quality Query Project  
 
+<img width="1536" height="1024" alt="DelhiAir " src="https://github.com/user-attachments/assets/14535e60-0628-4fed-9308-0848df9ca063" />
+
 ## 📖 Overview  
 This project analyzes **Delhi's Air Quality Index (AQI)** using **SQL queries** and **Power BI dashboards**.  
 The aim is to uncover patterns, detect pollution spikes, study weather impact, and derive insights for better environmental monitoring.  
@@ -11,7 +13,6 @@ The aim is to uncover patterns, detect pollution spikes, study weather impact, a
 - Detect hazardous days and streaks.  
 - Study the correlation between **weather conditions** and **air pollution**.  
 - Identify the **primary pollutants** contributing to poor air quality.  
-- Visualize key findings using dashboards for easy interpretation.  
 
 ---
 
@@ -42,7 +43,6 @@ The aim is to uncover patterns, detect pollution spikes, study weather impact, a
 ## 🛠️ Tools & Technologies  
 - **SQL** → Data cleaning, querying & transformations  
 - **PostgreSQL / MySQL** → Database  
-- **Power BI** → Dashboard visualizations  
 - **Excel/CSV** → Raw data storage  
 
 ---
@@ -52,15 +52,26 @@ The aim is to uncover patterns, detect pollution spikes, study weather impact, a
 Delhi_Air_Quality_Query/
 
 │── 📁 DATA/ # Contains raw & cleaned datasets ## 📂 Dataset
-- [inventory_forecasting.csv](Delhi_Air_Quality_Dataset.csv) — Original dataset used for analysis.
+- [Delhi_air_quality.csv](Delhi_Air_Quality_Dataset.csv) — Original dataset used for analysis
 
+│── 📁 SQL_SCRIPTS/ # SQL queries for all analyses [Sql_query.sql](Sql_query.sql) 
 
-│── 📁 SQL_SCRIPTS/ # SQL queries for all analyses
+## 🚀 Expected Impact
 
-│── 📁 DASHBOARDS/ # Power BI dashboard files (.pbix, exports)
+By implementing this analysis, stakeholders can:
 
-│── 📄 README.md # Project documentation
+📌 Monitor pollution trends effectively.
 
-│── 📄 RESULTS.pdf # Final project report
+🌍 Identify hazardous time periods to issue public warnings.
+
+🔬 Understand weather influence on air quality.
+
+📈 Support policymakers in drafting effective environmental regulations.
+
+🏙️ Improve public health outcomes by reducing exposure to hazardous air.
+
+## 👨‍💻 Author
+
+Rishi Raj Singh Raghuvanshi
 
 
