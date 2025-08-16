@@ -51,7 +51,9 @@ The aim is to uncover patterns, detect pollution spikes, study weather impact, a
 
 Delhi_Air_Quality_Query/
 
-│── 📁 DATA/ # Contains raw & cleaned datasets 
+│── 📁 DATA/ # Contains raw & cleaned datasets ## 📂 Dataset
+- [inventory_forecasting.csv](.) — Original dataset used for analysis.
+
 
 │── 📁 SQL_SCRIPTS/ # SQL queries for all analyses
 
